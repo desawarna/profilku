@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'EagleLake-Regular';
+    src: url(../fonts/EagleLake-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+@font-face {
+    font-family: 'muli-regular';
+    src: url(../fonts/muli-regular-webfont.woff2) format("woff2"), url(../fonts/muli-regular-webfont.woff) format("woff");
+    font-style: normal;
+    font-weight: normal;
+  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'EagleLake-Regular';
+}
+.content {
+    font-family: 'muli-regular';
+}
+.widget {
+  text-align: right;
+  background: url(../img/bg-widget.jpg) repeat-x left top, #000;
+  padding: 5%;
+  color: #fff;
+}
+.poto {
+  border-radius: 50% 50% 5% 50%;
+  margin: 0% 0% 10% 0%;
+}
+.navigasi {
+  list-style: none;
+  font-weight: bold;
+}
+.navigasi a {
+  color: #bc1f26;
+}
+.sosmed {
+  display: flex;
+  list-style: none;
+  float: right;
+}
+.sosmed a {
+  color: #bc1f26;
+}
+.paragraf {
+  background: url(../img/bg-paragraf.jpg) repeat-x left top, #fff;
+  color: #333;
+  padding: 5%;
+}
+
+.paragraf a {
+  color: #bc1f26;
+}
+
+@media (max-width: 320px) {
+.poto {
+  border-radius: 50% 50% 50% 5%;
+  margin: 1% 0% 10% 0%;
+  }
+.widget {
+  text-align: left;
+  }
+}
